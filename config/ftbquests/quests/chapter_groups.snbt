@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "4C28EF47A1A84961", title: "Main Progression" }
+		{ id: "06B398C2848E1C58", title: "Automation Lines" }
+		{ id: "2D85089AD6A3795E", title: "AE 2" }
+		{ id: "3AF5BACA7C303588", title: "Inventory Pets" }
+	]
+}

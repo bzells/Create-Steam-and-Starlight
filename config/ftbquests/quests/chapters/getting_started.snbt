@@ -1,0 +1,603 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "4C28EF47A1A84961"
+	icon: "supplementaries:globe"
+	id: "4E37A4A1B730E569"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Yup, &oanooother&r Create pack with Ad Atra. I mean, isn't it just the &lperfect&r combo?"
+				""
+				"This pack will challenge your ability to create, automate, and organize as multiple challenges"
+				"are thrown your way with new custom recipes, mechanics, and items!&r&r"
+				""
+				""
+				"&8&o(and inventory pets)"
+			]
+			disable_toast: true
+			icon: "supplementaries:globe"
+			id: "74073695C82BF2D8"
+			rewards: [
+				{
+					id: "20495554AD252711"
+					item: "comforts:sleeping_bag_light_blue"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3FF2017932BBB5B2"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "389835AB5F7C5A2B"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "0ACC6F2DA1086DF7"
+					item: {
+						Count: 1
+						id: "inventorypets:pet_crafting_table"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C0A49615580D7E9"
+					item: {
+						Count: 1
+						id: "inventorypets:pet_biome"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "What planet are we on now?"
+			tasks: [{
+				id: "45137A6C58FC4675"
+				title: "Welcome to EI5!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["74073695C82BF2D8"]
+			description: [
+				"Your first tier of material is stone alloy. A combination of cobblestone, and gravel (it's really just a fancy rock)."
+				""
+				"As you progress, you will find more efficient ways of creating alloys in previous tiers."
+				""
+				"Always think about future automation."
+			]
+			id: "314783FC82C163AB"
+			subtitle: "Tier 0?"
+			tasks: [{
+				id: "06A474F2DF5A5970"
+				item: "kubejs:stone_alloy_ingot"
+				type: "item"
+			}]
+			title: "Stone Alloy: Tier 0"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["314783FC82C163AB"]
+			id: "376C66063BBB1757"
+			optional: true
+			subtitle: "Yes, even the chests are changed."
+			tasks: [{
+				id: "4C6AFA5548E89721"
+				item: {
+					Count: 1
+					id: "minecraft:chest"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["314783FC82C163AB"]
+			id: "61005E5D777669EC"
+			optional: true
+			subtitle: "Try framed drawers!"
+			tasks: [{
+				id: "75AF4B0DCA619508"
+				item: "functionalstorage:oak_1"
+				type: "item"
+			}]
+			title: "Drawers"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["314783FC82C163AB"]
+			id: "7D38A3A2B2CB7818"
+			size: 1.5d
+			subtitle: "And onwards to many more materials"
+			tasks: [{
+				id: "37B9E8E5D60F2547"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Mining Iron!"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7FE9E8541A047F3E"
+				"7D38A3A2B2CB7818"
+			]
+			id: "79F0F4E155A1CF3A"
+			subtitle: "Not the next tier yet"
+			tasks: [{
+				id: "7E6299DEEAFB5D03"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["314783FC82C163AB"]
+			id: "7FE9E8541A047F3E"
+			subtitle: "Not optional!"
+			tasks: [{
+				id: "5AD2827D8F8BE86C"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["79F0F4E155A1CF3A"]
+			description: [
+				"&7Connect your hand crank onto the mechanical press and right click to start making your first"
+				"&7iron plates!&r"
+			]
+			id: "733B70E522FB076D"
+			subtitle: "Smash!"
+			tasks: [{
+				id: "1F31DABD460139F5"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["314783FC82C163AB"]
+			id: "7F104A45E77F23E2"
+			subtitle: "Your first stress units!"
+			tasks: [{
+				id: "17F8FD4804732313"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["314783FC82C163AB"]
+			id: "3AD4A713B5E9E0D1"
+			subtitle: "A fancy display stand...?"
+			tasks: [{
+				id: "14CCC1713AB822F9"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"79F0F4E155A1CF3A"
+				"72A0E347DB0F6027"
+			]
+			description: ["Later on in the pack, you will need &lLOTS&r of these. I suggest making one for every new alloy you come across."]
+			id: "787349AA9072B336"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Gateway into the early game!"
+			tasks: [
+				{
+					id: "4A072C4634562A49"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "23E1BA19E8FFBDCB"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["787349AA9072B336"]
+			description: ["With the mixer, you can now make stone alloy at half the price. This trend will continue through the entire pack."]
+			icon: "kubejs:stone_alloy_ingot"
+			id: "09547A1FDFA79179"
+			optional: true
+			subtitle: "Cheaper stone alloy!"
+			tasks: [{
+				id: "21D22E03F77FEF50"
+				type: "checkmark"
+			}]
+			title: "Cheaper Stone Alloy"
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["787349AA9072B336"]
+			id: "01DFDF2464C8DB96"
+			size: 2.0d
+			subtitle: "Your first tier 1 material"
+			tasks: [{
+				id: "3DAA7C153B5B82BE"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["01DFDF2464C8DB96"]
+			id: "0F346B23482876A1"
+			optional: true
+			subtitle: "Finally."
+			tasks: [{
+				id: "413588DE6993D571"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Backpacks"
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["01DFDF2464C8DB96"]
+			id: "36DEC2FC960B1EE4"
+			optional: true
+			tasks: [{
+				id: "0E44A21A7E7C9727"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			title: "Drawer upgrades"
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["01DFDF2464C8DB96"]
+			description: [
+				"Note: Small water wheels are not in this pack. You have to use the large ones."
+				""
+				"Windmills also generate a sizeable amount more SU compared to normal."
+			]
+			id: "6451B5C3B9113934"
+			size: 2.5d
+			tasks: [
+				{
+					id: "61C6585AE557E351"
+					item: "create:large_water_wheel"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "71BD251AF6709015"
+					item: "create:windmill_bearing"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Passive Stress Units"
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["01DFDF2464C8DB96"]
+			description: [
+				"Now that you can mine diamonds and redstone, I suggest you do lots of it. You will need a lot of redstone to batch craft redstone alloy."
+				""
+				"Luckily for you, getting fortune is easy! In a mixer, combining 3 books, 3 diamonds, and 15 pieces of lapis gives you 3 fortune 3 books. You can also make iron hammers now (which should make early mining a lot easier)."
+				""
+				"You can also make a hammer to make mining faster."
+			]
+			id: "76F82703D7C8A4C8"
+			tasks: [{
+				id: "1167BC88F00F07FB"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Iron pickaxe!"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["76F82703D7C8A4C8"]
+			id: "1C5A0CFF54A0B2FB"
+			subtitle: "Mix diamonds, lapis, and books"
+			tasks: [{
+				id: "1F471944B3FF8A2A"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:fortune"
+							lvl: 5
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Fortune Book"
+			x: 2.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["76F82703D7C8A4C8"]
+			description: ["Mix redstone, andesite alloy, and copper into a mixer to make redstone alloy"]
+			id: "697234B32AFAB813"
+			size: 1.5d
+			subtitle: "The secret ingredient to automation"
+			tasks: [{
+				id: "602F72244D890E1F"
+				item: "kubejs:redstone_alloy_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["697234B32AFAB813"]
+			id: "16304FF5BE162CA6"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "63E1A013967580AF"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["01DFDF2464C8DB96"]
+			id: "721161C005F6DD71"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "20B94BD3D77614C9"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["697234B32AFAB813"]
+			id: "60FD30B745606804"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "3206F6DFDCBEC6F1"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["697234B32AFAB813"]
+			description: [
+				"The fan is your first step into unlocking higher tier materials. With this, you can now (almost) automate iron. Once you unlock the mechanical drill, it is highly recommended to automate iron."
+				""
+				"In the future, you will need to automate more materials through higher tiers of gravel."
+			]
+			id: "3375CF92CFB9C90C"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "The next level of crafting"
+			tasks: [{
+				id: "4CF172A993ADEA1E"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3375CF92CFB9C90C"]
+			description: [
+				"Mixing together redstone and clay will yield 2 pieces of rare earth dust. You can wash rare earth for a chance at aluminum dust."
+				""
+				"For now, this is your only way to obtain aluminum, but soon you will be able to automate it much"
+				"easier."
+			]
+			id: "0E3E93EA937278DE"
+			subtitle: "Just wash it off!"
+			tasks: [{
+				id: "64B376270AE1A265"
+				item: "kubejs:crushed_rare_earth"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["733B70E522FB076D"]
+			id: "72A0E347DB0F6027"
+			subtitle: "Can't wait to get rid of that hand crank?"
+			tasks: [{
+				id: "3AE5D643B81ED202"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			title: "Iron Sheets"
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0E3E93EA937278DE"]
+			description: ["Wash your rare earth into aluminum nuggets, and craft an ingot."]
+			id: "0443DF0CE255FF87"
+			rewards: [{
+				id: "5D493E8BC4F20507"
+				item: "kubejs:earth_dollar"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Tier 2!"
+			tasks: [{
+				id: "582380ED771E0F2E"
+				item: "kubejs:aluminum_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["1C5A0CFF54A0B2FB"]
+			description: [
+				"You can now make a lucky scarf to even further amplify your mining yield. You won't get automatic resources (except iron) for a decent while, so I suggest you invest in making this to make the most of your mining trips."
+				""
+				"If you don't have any emeralds, you should be able to buy some &aEmerald Ore&r with your coupons."
+			]
+			id: "3695CF3E534A5ABA"
+			subtitle: "You're gonna want one of these"
+			tasks: [{
+				id: "4E60649D8F4CA399"
+				item: "artifacts:lucky_scarf"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["76F82703D7C8A4C8"]
+			id: "15F2B6FBE01F7DD8"
+			shape: "square"
+			tasks: [{
+				id: "22EEBEED7FD3D394"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["76F82703D7C8A4C8"]
+			id: "2B5C2DF216474D3B"
+			shape: "square"
+			tasks: [{
+				id: "47A1255052FEF949"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["76F82703D7C8A4C8"]
+			id: "7BA7EEFEAD469BF4"
+			shape: "square"
+			tasks: [{
+				id: "20F1C43C5B349B3C"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["76F82703D7C8A4C8"]
+			id: "588703E9F57E476F"
+			shape: "square"
+			tasks: [{
+				id: "657A476CAD4BADF2"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["76F82703D7C8A4C8"]
+			description: ["For now, most of your resources come from mining. You can make different hammers to help with that."]
+			icon: {
+				Count: 1
+				id: "onlyhammersandexcavators:diamond_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "52848B110386EADB"
+			subtitle: "Make your life easier"
+			tasks: [
+				{
+					id: "3CE229557B32BC51"
+					item: {
+						Count: 1
+						id: "onlyhammersandexcavators:diamond_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "75202386DCAB9ECC"
+					item: {
+						Count: 1
+						id: "onlyhammersandexcavators:iron_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "730593ED1AA3E228"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 16.0d
+		}
+	]
+	title: "Emergence"
+}

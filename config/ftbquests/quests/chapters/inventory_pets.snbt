@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "inventory_pets"
+	group: "3AF5BACA7C303588"
+	id: "76DF2385B446F9E1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "2394FFA83189C4E1"
+		tasks: [{
+			id: "18163A90210EB009"
+			item: {
+				Count: 1
+				id: "inventorypets:pet_loot"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: -1.5d
+		y: -1.5d
+	}]
+	title: "Inventory Pets"
+}

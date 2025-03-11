@@ -1,0 +1,526 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mid_game"
+	group: "4C28EF47A1A84961"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_1_rocket"
+		tag: { }
+	}
+	id: "76CCC5A112BF5713"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0C393ACC72A5E359"]
+			id: "6E138F83B2A6DF52"
+			tasks: [{
+				id: "7120777B1D4DE43B"
+				item: "kubejs:obsidian_steel_casing"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"47FD41E916D5CC13"
+				"6E138F83B2A6DF52"
+				"7C9CFD48254DCED7"
+				"7DB2A3FB21F89D00"
+			]
+			id: "139D00E1DAB8F1E4"
+			shape: "gear"
+			size: 4.0d
+			tasks: [{
+				id: "531857E53E7FCDEC"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "To The Stars!"
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"03730F66077F48E8"
+				"05F2AFE3C04847CD"
+			]
+			id: "2D28595F36D02C19"
+			tasks: [{
+				id: "72A1CEE69ADE323B"
+				item: "kubejs:rubber_sheet"
+				type: "item"
+			}]
+			title: "Tier 2 Rubbers"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5050A96F965501B3"]
+			id: "5F4B7FC20E724FB3"
+			tasks: [{
+				id: "1D12F7CACF65FC9C"
+				item: "create:gantry_carriage"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3FD0E1781FF0A51A"]
+			id: "3E197F44DE788B4E"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2E4810E316CCF9C8"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5F65C8A95F96F6BF"]
+			id: "03730F66077F48E8"
+			tasks: [{
+				id: "42438482A03EFF03"
+				item: "kubejs:oil_gravel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E8F4DC7AC912201"]
+			id: "5B6631EBB9C3A1A0"
+			subtitle: "craft in mechanical crafter"
+			tasks: [{
+				id: "67F4B3B12D476600"
+				item: "create_new_age:generator_coil"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5B6631EBB9C3A1A0"]
+			id: "061215C0DEA00EA2"
+			tasks: [{
+				id: "4B56EA06975A72D8"
+				item: "create_new_age:carbon_brushes"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6E138F83B2A6DF52"]
+			id: "5050A96F965501B3"
+			tasks: [{
+				id: "71973DD2EB4BB9C1"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5F4B7FC20E724FB3"]
+			id: "4AA893B6C5F97A5B"
+			shape: "square"
+			tasks: [{
+				id: "5E7178FF6D3EE886"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "New cobble line!"
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["000CEBAD3C21F47F"]
+			id: "530A2D5CFED7CD7D"
+			size: 2.0d
+			tasks: [{
+				id: "0A2C0B1B15E34B2B"
+				item: "kubejs:desh_ingot"
+				type: "item"
+			}]
+			title: "Desh at last!"
+			x: 8.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5F65C8A95F96F6BF"]
+			id: "3E8F4DC7AC912201"
+			tasks: [{
+				id: "284E4287553C1ADD"
+				item: "kubejs:carbon_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "5F65C8A95F96F6BF"
+			tasks: [{
+				id: "5F2CC317F6D1B76C"
+				item: "kubejs:carbon_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"03730F66077F48E8"
+				"4C6DFA1FC401B1B6"
+			]
+			id: "47FD41E916D5CC13"
+			tasks: [{
+				id: "57E37236F8264B10"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3E8F4DC7AC912201"]
+			id: "767690D32BF89A1D"
+			tasks: [{
+				id: "2FF8A45E313D385E"
+				item: "kubejs:advanced_electron_tube"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["767690D32BF89A1D"]
+			id: "4C6DFA1FC401B1B6"
+			tasks: [{
+				id: "5DE7E601890BD981"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["767690D32BF89A1D"]
+			id: "7DB2A3FB21F89D00"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Craft in mechanical crafter"
+			tasks: [{
+				id: "66C84EE0537AEED0"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B6631EBB9C3A1A0"]
+			id: "2B6F0DF06CD24B5D"
+			tasks: [{
+				id: "652A8B4827B65FA7"
+				item: "create_new_age:redstone_magnet"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6E138F83B2A6DF52"]
+			id: "75E64F959A90EFCA"
+			tasks: [{
+				count: 64L
+				id: "3A5CCCA3CCD06290"
+				item: { Count: 64, id: "create_new_age:layered_magnet" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["530A2D5CFED7CD7D"]
+			id: "42D7C87378327EE9"
+			tasks: [{
+				count: 64L
+				id: "58E8A989886E6280"
+				item: { Count: 64, id: "create_new_age:fluxuated_magnetite" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 14.5d
+		}
+		{
+			id: "7C9CFD48254DCED7"
+			tasks: [{
+				id: "2C75C9687A99288A"
+				item: "kubejs:obsidian_steel_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"2D28595F36D02C19"
+				"7C9CFD48254DCED7"
+			]
+			id: "263A1929948A3A77"
+			tasks: [
+				{
+					id: "375991A43DE65E6F"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E93FDB45F386B35"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B1805C30A929C42"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2878474254E7EFE6"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			description: ["Now that you have access to &bsuperheating&r, you should upgrade to the next tier of &4rubber"]
+			id: "05F2AFE3C04847CD"
+			tasks: [{
+				id: "708B2AFAE073E7AD"
+				item: "kubejs:tree_sap"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["139D00E1DAB8F1E4"]
+			description: [
+				"I suggest mining as much &6Desh&r as you can from the moon, along with a lot of moon cobble/sand."
+				""
+				"This will get you a decent chunk of &d&lTitanium &r, which you will need to progress."
+				""
+				"Soon, you will have access to moon gravel, which can give you infinite titanium and desh."
+				""
+				"It is also important you set up the processing line &l&nto it's FULLEST&r in order to extract"
+				"as MUCH titanium as possible from desh."
+			]
+			id: "000CEBAD3C21F47F"
+			subtitle: "Oh boy..."
+			tasks: [
+				{
+					count: 10L
+					id: "72A6036FE5333BC0"
+					item: "kubejs:desh_dust"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "4907C378728B0C81"
+					item: "kubejs:titanium_dust"
+					type: "item"
+				}
+			]
+			title: "Desh Processing"
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			description: [
+				"In this pack, crafting rocket parts is the same for every tier. The sequence will contain"
+				"different items, but the same process."
+				""
+				"I recommend building the crafting sequence lines and keeping them so that you can"
+				"use them for future rockets."
+			]
+			id: "5DD6F76E7DEB2FD9"
+			tasks: [{
+				id: "2A54D2F5F18CC8D5"
+				title: "Rocket Crafting?"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["000CEBAD3C21F47F"]
+			description: [
+				"With 80 &d&lTitanium&r and 80 &6&lDesh&r dust, you can craft 1000mb of &3&lBrew of Luna&r."
+				""
+				"With this, you can automate moon gravel-which can be washed into titanium and desh."
+			]
+			id: "2C544F6F6F8B62D1"
+			tasks: [{
+				id: "59C1B7A729DB4395"
+				item: "kubejs:brew_of_luna_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2C544F6F6F8B62D1"]
+			description: [
+				"Note: your &3&lBrew of Luna&r is &n&lNOT&r consumed by making moon gravel!"
+				""
+				"As long as you have 1000mb of it, you will never have to make it again (for moon gravel)"
+			]
+			id: "3E5CC4265272E7B6"
+			size: 2.0d
+			tasks: [{
+				id: "566BFE3CB494E9CB"
+				item: "kubejs:moon_gravel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["562C90BDB0B07A10"]
+			description: [
+				"To process &dtitanium&r, you're going to need &bcryo-fuel&r to cool down the hot ingot. Cooling down"
+				"&6desh&r this way is also more efficient."
+				""
+				"With a decent amount of &6desh&r, you should be able to craft the &l&6cryo freezer&r"
+			]
+			id: "73FADD71E38EB257"
+			tasks: [
+				{
+					id: "72B7AA8981A3BAF1"
+					item: "ad_astra:cryo_freezer"
+					type: "item"
+				}
+				{
+					id: "057349DE58055E4C"
+					item: "ad_astra:ice_shard"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["73FADD71E38EB257"]
+			id: "3F78DCB577A61A41"
+			tasks: [{
+				id: "352D94AEE41BC021"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["530A2D5CFED7CD7D"]
+			id: "562C90BDB0B07A10"
+			tasks: [{
+				id: "0707B433F10FA16D"
+				item: "kubejs:desh_component"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["3F78DCB577A61A41"]
+			id: "3FD0E1781FF0A51A"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "180A02A4FF1960CF"
+				item: "kubejs:titanium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["6E138F83B2A6DF52"]
+			description: [
+				"Now that you have access to obsidian steel, you can transport fluids &o&dwith bluetooth"
+				""
+				"Just kidding, it's not bluetooth. It's 5G!"
+			]
+			id: "035737124939A3C9"
+			tasks: [{
+				id: "74A06D1D4B26572A"
+				item: {
+					Count: 1
+					id: "endertanks:ender_tank"
+					tag: {
+						code: "000"
+						owner: "all"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["530A2D5CFED7CD7D"]
+			description: ["Now that you have desh, you can transport items without belts (if you so desire) across long distances and dimensions"]
+			id: "673B217970CBCE46"
+			tasks: [{
+				id: "36EB8A6CD6C0ED84"
+				item: {
+					Count: 1
+					id: "enderchests:ender_chest"
+					tag: {
+						code: "000"
+						owner: "all"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 14.5d
+		}
+	]
+	title: "The Space Age"
+}

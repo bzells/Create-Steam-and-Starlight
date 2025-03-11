@@ -1,0 +1,435 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "early_game"
+	group: "4C28EF47A1A84961"
+	icon: "kubejs:aluminum_ingot"
+	id: "583F078D823F9F85"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4E37A4A1B730E569"]
+			id: "4D44CC71768269DB"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "015F735831B77D96"
+				item: "kubejs:aluminum_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["014608E819BEC5E5"]
+			id: "75DEB088D5F151F8"
+			tasks: [{
+				id: "60CC5F8F1D361606"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["014608E819BEC5E5"]
+			id: "4B9DBCB3D6A336DD"
+			tasks: [{
+				id: "279E6619F369FD21"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["014608E819BEC5E5"]
+			id: "1EF09E106CCABA2A"
+			tasks: [{
+				id: "2DDF1A2994619EFB"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D44CC71768269DB"]
+			id: "014608E819BEC5E5"
+			shape: "hexagon"
+			tasks: [{
+				id: "074CEE24F87B336B"
+				item: "kubejs:aluminum_casing"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"75DEB088D5F151F8"
+				"1EF09E106CCABA2A"
+			]
+			description: [
+				"Your first processing line will be for slime."
+				""
+				"You can check under the \"Processing Lines\" quest tab if you need help setting up slime, but the basics are: Wheat -> Wheat Flour -> Dough + Grass Clippings = &aSlime&r"
+				""
+				"Grass clippings will come from leaves. You can automate"
+			]
+			id: "14CC13F7EA4815E5"
+			subtitle: "Your first big processing line"
+			tasks: [{
+				id: "216FD012E57E6A3B"
+				item: "kubejs:raw_slime_rubber"
+				type: "item"
+			}]
+			title: "Slimeline"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["32F759B48F9F0EC9"]
+			description: ["Your first few pieces of steel will be &lvery&r expensive, and you are incentivized to switch over to a better recipe after getting your first &6blaze burner. "]
+			id: "4CECA11A95368247"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "58FE3EE2044F8194"
+				item: "kubejs:steel_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"33577FD339254AB0"
+				"4CECA11A95368247"
+			]
+			id: "71F67500521CC007"
+			tasks: [{
+				id: "1B4F54E80FF31262"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			id: "33577FD339254AB0"
+			tasks: [{
+				id: "7A44F5D9694A6A98"
+				item: "minecraft:blaze_spawn_egg"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["14CC13F7EA4815E5"]
+			id: "29093A7D611561F0"
+			tasks: [{
+				id: "608384FAC4EF24C9"
+				item: "kubejs:slime_rubber_ball"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["014608E819BEC5E5"]
+			id: "32F759B48F9F0EC9"
+			tasks: [{
+				id: "3C53146AE5E7354D"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"29093A7D611561F0"
+				"4CECA11A95368247"
+			]
+			id: "4C2DD7D2C0E228C9"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7422B89110110C48"
+					item: { Count: 64, id: "create_new_age:basic_motor" }
+					type: "item"
+				}
+				{
+					id: "75E22D2A0712F2A8"
+					item: "createaddition:alternator"
+					type: "item"
+				}
+				{
+					id: "607D16B37C05DF40"
+					item: "create_new_age:basic_motor_extension"
+					type: "item"
+				}
+				{
+					id: "3C6C36DA1AE9A443"
+					item: "createaddition:connector"
+					type: "item"
+				}
+				{
+					id: "21898ED52EAB7238"
+					item: "createaddition:copper_spool"
+					type: "item"
+				}
+			]
+			title: "Moving Stress with Electronics!"
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["71F67500521CC007"]
+			id: "5F895EE24A7BA2E5"
+			size: 1.5d
+			tasks: [{
+				id: "4E8E090E98505755"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "The Age of Logistics!"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["71F67500521CC007"]
+			id: "1D1B2818ABD527EF"
+			tasks: [{
+				id: "32C7E51EC1EE81F5"
+				item: "kubejs:redstone_alloy_ingot"
+				type: "item"
+			}]
+			title: "Cheaper Redstone Alloy"
+			x: -2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["71F67500521CC007"]
+			id: "3539FE3E046BFC0F"
+			tasks: [{
+				id: "7F7A83CC0A26DFF2"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Cheaper Andesite Alloy"
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"4C2DD7D2C0E228C9"
+				"5F895EE24A7BA2E5"
+			]
+			id: "411A8519A1B6AA8B"
+			tasks: [{
+				id: "794E1DA0A5FE60E7"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			title: "Charging items!"
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["411A8519A1B6AA8B"]
+			description: [
+				"At this point, you are going to want to set up a cobblestone generator, and passive gravel. The more materials you stockpile on, the more fun you will have later on."
+				""
+				"For help on the &8CobbleLine™&r, look under the \"Automation Lines\" Chapter"
+			]
+			id: "0EF29A97C4F3D93B"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "And more iron!"
+			tasks: [{
+				id: "66DAAC95BAD6AA1D"
+				item: "kubejs:aluminum_gravel"
+				type: "item"
+			}]
+			title: "Automatic Aluminum!"
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["71F67500521CC007"]
+			id: "3C70657C94CAC010"
+			tasks: [{
+				id: "71790E561A83E3C2"
+				item: "kubejs:steel_ingot"
+				type: "item"
+			}]
+			title: "Cheaper Steel!"
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0EF29A97C4F3D93B"]
+			description: ["Haunting your aluminum gravel will give you &4Bewitched Gravel&r. It is highly recommended you automate this soon, as you will need lots of redstone and glowstone throughout the pack."]
+			id: "489D47338FC98A05"
+			subtitle: "Automatic Redstone and Glowstone"
+			tasks: [{
+				id: "1567D2733D1FC20B"
+				item: "kubejs:bewitched_gravel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4CECA11A95368247"]
+			description: ["For help setting up a steam engine, I suggest watching a YouTube tutorial."]
+			id: "5AD67154C9E587AE"
+			size: 1.5d
+			tasks: [{
+				id: "0B1FBFE7DDDADA8A"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "Steam Power!"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F895EE24A7BA2E5"]
+			id: "29DBD00D047FFDC6"
+			shape: "hexagon"
+			tasks: [{
+				id: "3120FA44F653AD45"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["29093A7D611561F0"]
+			id: "538E8D093CCD99B6"
+			tasks: [{
+				id: "3B96C566D1F28AD0"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5788BBE24DDB6B25"]
+			id: "2BCDDF4AC60A25DD"
+			tasks: [{
+				id: "7A814D0698C12ED0"
+				item: "kubejs:hot_obsidian_steel_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["2BCDDF4AC60A25DD"]
+			id: "46A8E7E8028175F0"
+			tasks: [{
+				id: "1FDDF5D0A918744B"
+				item: "kubejs:obsidian_steel_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["46A8E7E8028175F0"]
+			id: "0C393ACC72A5E359"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "14419DE4EF9FB47C"
+				item: "kubejs:obsidian_steel_casing"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5F895EE24A7BA2E5"]
+			id: "3006703B4D743994"
+			tasks: [{
+				id: "0C24A686AC57C1FF"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5F895EE24A7BA2E5"]
+			id: "40E30234C934821C"
+			tasks: [{
+				count: 25L
+				id: "16B764559DB37169"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["40E30234C934821C"]
+			id: "5788BBE24DDB6B25"
+			tasks: [{
+				id: "1CCFA76A4A587D4A"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			id: "2119223A1334FE72"
+			subtitle: "Biofuel is a great alternative to blaze cakes"
+			tasks: [
+				{
+					id: "0C06E50468754D26"
+					item: "createaddition:bioethanol_bucket"
+					type: "item"
+				}
+				{
+					id: "251F25FA3176CC9F"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+			]
+			title: "Superheating"
+			x: -1.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["014608E819BEC5E5"]
+			description: [
+				"Now that you have aluminum, you can begin to craft &l&eInventory Pets!&r"
+				""
+				"There is a &lLOT&r of pets you can craft, so there is a whole chapter for them!"
+				""
+				"Some are needed for progression, some are just for fun."
+			]
+			id: "0A8D5F6AD8916120"
+			subtitle: "Playing God"
+			tasks: [{
+				id: "41159111BC939331"
+				item: "kubejs:mechanical_doll"
+				type: "item"
+			}]
+			title: "Inventory Pets"
+			x: -1.5d
+			y: 3.0d
+		}
+	]
+	title: "Early Game"
+}
