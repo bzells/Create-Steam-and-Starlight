@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+	  "all": "mbd2:desh_machine_stress_input"
+	}
+  }

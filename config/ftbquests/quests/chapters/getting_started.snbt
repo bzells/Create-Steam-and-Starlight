@@ -10,7 +10,7 @@
 	quests: [
 		{
 			description: [
-				"Yup, &oanooother&r Create pack with Ad Atra. I mean, isn't it just the &lperfect&r combo?"
+				"Yup, &oanooother&r Create pack with Ad Astra. I mean, isn't it just the &lperfect&r combo?"
 				""
 				"This pack will challenge your ability to create, automate, and organize as multiple challenges"
 				"are thrown your way with new custom recipes, mechanics, and items!&r&r"
@@ -25,12 +25,6 @@
 				{
 					id: "20495554AD252711"
 					item: "comforts:sleeping_bag_light_blue"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "3FF2017932BBB5B2"
-					item: "minecraft:cooked_beef"
 					type: "item"
 				}
 				{
@@ -61,6 +55,12 @@
 					}
 					type: "item"
 				}
+				{
+					count: 20
+					id: "3C64FEF50BFAE931"
+					item: "kubejs:chicken_nugget"
+					type: "item"
+				}
 			]
 			shape: "gear"
 			size: 2.0d
@@ -70,6 +70,7 @@
 				title: "Welcome to EI5!"
 				type: "checkmark"
 			}]
+			title: "Welcome to Steam and Starlight!"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -565,36 +566,18 @@
 			}
 			id: "52848B110386EADB"
 			subtitle: "Make your life easier"
-			tasks: [
-				{
-					id: "3CE229557B32BC51"
-					item: {
-						Count: 1
-						id: "onlyhammersandexcavators:diamond_hammer"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "3CE229557B32BC51"
+				item: {
+					Count: 1
+					id: "onlyhammersandexcavators:diamond_hammer"
+					tag: {
+						Damage: 0
 					}
-					optional_task: true
-					type: "item"
 				}
-				{
-					id: "75202386DCAB9ECC"
-					item: {
-						Count: 1
-						id: "onlyhammersandexcavators:iron_hammer"
-						tag: {
-							Damage: 0
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "730593ED1AA3E228"
-					type: "checkmark"
-				}
-			]
+				optional_task: true
+				type: "item"
+			}]
 			x: -1.5d
 			y: 16.0d
 		}

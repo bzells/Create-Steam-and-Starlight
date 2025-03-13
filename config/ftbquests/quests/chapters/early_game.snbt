@@ -118,6 +118,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["0ACE06547269AA56"]
 			id: "33577FD339254AB0"
 			tasks: [{
 				id: "7A44F5D9694A6A98"
@@ -429,6 +430,22 @@
 			title: "Inventory Pets"
 			x: -1.5d
 			y: 3.0d
+		}
+		{
+			id: "0ACE06547269AA56"
+			tasks: [{
+				id: "3FA853D9F9B19230"
+				item: {
+					Count: 1
+					id: "inventorypets:pet_blaze"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
 		}
 	]
 	title: "Early Game"
