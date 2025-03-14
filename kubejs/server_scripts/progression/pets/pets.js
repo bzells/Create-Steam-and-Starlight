@@ -35,5 +35,19 @@ ServerEvents.recipes(event =>
           }
         )
 
+        event.shaped(
+          Item.of('inventorypets:pet_blaze', 1), // arg 1: output
+          [
+            'BAB',
+            'ACA', // arg 2: the shape (array of strings)
+            'BAB'
+          ],
+          {
+            A: 'minecraft:quartz',
+            B: 'minecraft:netherrack',  //arg 3: the mapping object
+            C: 'kubejs:mechanical_doll'
+          }
+        )
+
     }
   )

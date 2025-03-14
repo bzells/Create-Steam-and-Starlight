@@ -272,6 +272,7 @@ ServerEvents.recipes(event =>
       }
     )
 
+    event.remove({output:  'create:empty_blaze_burner'})
     event.shaped(
       Item.of('create:empty_blaze_burner', 1), // arg 1: output
       [
@@ -287,16 +288,15 @@ ServerEvents.recipes(event =>
     )
 
     event.shaped(
-      Item.of('minecraft:blaze_spawn_egg', 1), // arg 1: output
+      Item.of('minecraft:blaze_spawn_egg', 2), // arg 1: output
       [
-        'XBX',
+        '   ',
         'BAB', // arg 2: the shape (array of strings)
-        'XBX'
+        '   '
       ],
       {
-        A: 'minecraft:egg',
-        B: 'minecraft:netherrack',
-        X: 'minecraft:quartz'
+        A: 'inventorypets:pet_blaze',
+        B: 'minecraft:egg'
       }
     )
 
